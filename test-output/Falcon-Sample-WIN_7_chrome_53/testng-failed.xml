@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Falcon-Sample-WIN_7_chrome_53]" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest(failed)">
+    <classes>
+      <class name="org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript">
+        <methods>
+          <include name="launchApp"/>
+          <include name="teardown"/>
+          <include name="preSetup"/>
+          <include name="performActions"/>
+        </methods>
+      </class> <!-- org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript -->
+    </classes>
+  </test> <!-- SampleTest(failed) -->
+</suite> <!-- Failed suite [Falcon-Sample-WIN_7_chrome_53] -->

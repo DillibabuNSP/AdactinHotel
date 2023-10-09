@@ -1,0 +1,268 @@
+<html>
+<head>
+<title>TestNG:  SampleTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SampleTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 09 12:37:06 GMT+05:30 2023</td>
+</tr>
+<tr><td>Total time:</td><td>128 seconds (128967 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.launchApp()'><b>launchApp</b><br>Test class: org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript<br>Parameters: WIN, 7, chrome, 53<br/>
+<a href="#Output-2120380138" onClick='toggleBox("Output-2120380138", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2120380138" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2120380138">
+Opening browser: chrome<br/>
+Maximizing browser window<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@4ceca0d6</td></tr>
+<tr>
+<td title='org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.performActions()'><b>performActions</b><br>Test class: org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript<br>Parameters: Sydney, Hotel Creek, Standard, 5 - Five, 09/10/2023, 09/10/2023, 1 - One, 1 - One, John, Smith, United States, 1234123412341234, American Express, January, 2023, 234.0<br/>
+<a href="#Output-1220091209" onClick='toggleBox("Output-1220091209", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1220091209" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1220091209">
+Verify Title<br/>
+PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!<br/>
+Enter Username<br/>
+Enter Password<br/>
+click on Login<br/>
+select location<br/>
+select Hotels<br/>
+select RoomType<br/>
+select Number Of Rooms<br/>
+Enter Check in and Check out date<br/>
+Select the number of Adults per Room<br/>
+Select the number of Children per Room<br/>
+click on Search<br/>
+Randomly select any of the hotel<br/>
+click on Continue<br/>
+Enter Firstname<br/>
+Enter Firstname<br/>
+Enter Address<br/>
+Enter Credit card Details<br/>
+select CardType<br/>
+select Expiry Month<br/>
+select Expiry Year<br/>
+Enter CCV Number<br/>
+click on Book Now<br/>
+Get the Order No.<br/>
+click on Itinerary<br/>
+Enter Search ID<br/>
+click on Go<br/>
+Fetch Search Id Details<br/>
+Click logOut<br/>
+logout message You have successfully logged out. Click here to login again<br/>
+PASS : Successfully Logged out withthis message :- : ACTUAL : You have successfully logged out. Click here to login again    EXPECTED :You have successfully logged out. Click here to login again<br/>
+Click logIn Again<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@4ceca0d6</td></tr>
+<tr>
+<td title='org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.performActions()'><b>performActions</b><br>Test class: org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript<br>Parameters: London, Hotel Sunshine, Double, 6 - Six, 09/10/2023, 09/10/2023, 2 - Two, 2 - Two, Emily, Johnson, Canada, 2345234523452345, VISA, August, 2024, 123.0<br/>
+<a href="#Output-1628390612" onClick='toggleBox("Output-1628390612", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1628390612" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1628390612">
+Verify Title<br/>
+PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!<br/>
+Enter Username<br/>
+Enter Password<br/>
+click on Login<br/>
+select location<br/>
+select Hotels<br/>
+select RoomType<br/>
+select Number Of Rooms<br/>
+Enter Check in and Check out date<br/>
+Select the number of Adults per Room<br/>
+Select the number of Children per Room<br/>
+click on Search<br/>
+Randomly select any of the hotel<br/>
+click on Continue<br/>
+Enter Firstname<br/>
+Enter Firstname<br/>
+Enter Address<br/>
+Enter Credit card Details<br/>
+select CardType<br/>
+select Expiry Month<br/>
+select Expiry Year<br/>
+Enter CCV Number<br/>
+click on Book Now<br/>
+Get the Order No.<br/>
+click on Itinerary<br/>
+Enter Search ID<br/>
+click on Go<br/>
+Fetch Search Id Details<br/>
+Click logOut<br/>
+logout message You have successfully logged out. Click here to login again<br/>
+PASS : Successfully Logged out withthis message :- : ACTUAL : You have successfully logged out. Click here to login again    EXPECTED :You have successfully logged out. Click here to login again<br/>
+Click logIn Again<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@4ceca0d6</td></tr>
+<tr>
+<td title='org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.performActions()'><b>performActions</b><br>Test class: org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript<br>Parameters: New York, Hotel Hervey, Deluxe, 7 - Seven, 09/10/2023, 09/10/2023, 3 - Three, 3 - Three, Michael, Brown, United Kingdom, 3456345634563456, Master Card, May, 2025, 456.0<br/>
+<a href="#Output-1677636525" onClick='toggleBox("Output-1677636525", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1677636525" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1677636525">
+Verify Title<br/>
+PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!<br/>
+Enter Username<br/>
+Enter Password<br/>
+click on Login<br/>
+select location<br/>
+select Hotels<br/>
+select RoomType<br/>
+select Number Of Rooms<br/>
+Enter Check in and Check out date<br/>
+Select the number of Adults per Room<br/>
+Select the number of Children per Room<br/>
+click on Search<br/>
+Randomly select any of the hotel<br/>
+click on Continue<br/>
+Enter Firstname<br/>
+Enter Firstname<br/>
+Enter Address<br/>
+Enter Credit card Details<br/>
+select CardType<br/>
+select Expiry Month<br/>
+select Expiry Year<br/>
+Enter CCV Number<br/>
+click on Book Now<br/>
+Get the Order No.<br/>
+click on Itinerary<br/>
+Enter Search ID<br/>
+click on Go<br/>
+Fetch Search Id Details<br/>
+Click logOut<br/>
+logout message You have successfully logged out. Click here to login again<br/>
+PASS : Successfully Logged out withthis message :- : ACTUAL : You have successfully logged out. Click here to login again    EXPECTED :You have successfully logged out. Click here to login again<br/>
+Click logIn Again<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@4ceca0d6</td></tr>
+<tr>
+<td title='org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.performActions()'><b>performActions</b><br>Test class: org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript<br>Parameters: Los Angeles, Hotel Cornice, Super Deluxe, 8 - Eight, 09/10/2023, 09/10/2023, 4 - Four, 4 - Four, Sarah, Davis, Australia, 4567456745674567, Other, November, 2026, 789.0<br/>
+<a href="#Output-1188051602" onClick='toggleBox("Output-1188051602", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1188051602" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1188051602">
+Verify Title<br/>
+PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!<br/>
+Enter Username<br/>
+Enter Password<br/>
+click on Login<br/>
+select location<br/>
+select Hotels<br/>
+select RoomType<br/>
+select Number Of Rooms<br/>
+Enter Check in and Check out date<br/>
+Select the number of Adults per Room<br/>
+Select the number of Children per Room<br/>
+click on Search<br/>
+Randomly select any of the hotel<br/>
+click on Continue<br/>
+Enter Firstname<br/>
+Enter Firstname<br/>
+Enter Address<br/>
+Enter Credit card Details<br/>
+select CardType<br/>
+select Expiry Month<br/>
+select Expiry Year<br/>
+Enter CCV Number<br/>
+click on Book Now<br/>
+Get the Order No.<br/>
+click on Itinerary<br/>
+Enter Search ID<br/>
+click on Go<br/>
+Fetch Search Id Details<br/>
+Click logOut<br/>
+logout message You have successfully logged out. Click here to login again<br/>
+PASS : Successfully Logged out withthis message :- : ACTUAL : You have successfully logged out. Click here to login again    EXPECTED :You have successfully logged out. Click here to login again<br/>
+Click logIn Again<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@4ceca0d6</td></tr>
+</table><p>
+</body>
+</html>

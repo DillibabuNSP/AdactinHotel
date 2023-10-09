@@ -1,0 +1,1231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[INFO: The value found with Environment variable Falcon is: Falcon]]>
+    </line>
+    <line>
+      <![CDATA[INFO: The value found with Environment Module variable sample is: sample]]>
+    </line>
+    <line>
+      <![CDATA[The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clients Found: [Falcon]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Modules Selected: [sample]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53]]>
+    </line>
+    <line>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser: chrome]]>
+    </line>
+    <line>
+      <![CDATA[Maximizing browser window]]>
+    </line>
+    <line>
+      <![CDATA[Verify Title]]>
+    </line>
+    <line>
+      <![CDATA[PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password]]>
+    </line>
+    <line>
+      <![CDATA[click on Login]]>
+    </line>
+    <line>
+      <![CDATA[select location]]>
+    </line>
+    <line>
+      <![CDATA[select Hotels]]>
+    </line>
+    <line>
+      <![CDATA[select RoomType]]>
+    </line>
+    <line>
+      <![CDATA[select Number Of Rooms]]>
+    </line>
+    <line>
+      <![CDATA[Enter Check in and Check out date]]>
+    </line>
+    <line>
+      <![CDATA[Select the number of Adults per Room]]>
+    </line>
+    <line>
+      <![CDATA[Select the number of Children per Room]]>
+    </line>
+    <line>
+      <![CDATA[click on Search]]>
+    </line>
+    <line>
+      <![CDATA[Randomly select any of the hotel]]>
+    </line>
+    <line>
+      <![CDATA[click on Continue]]>
+    </line>
+    <line>
+      <![CDATA[Enter Firstname]]>
+    </line>
+    <line>
+      <![CDATA[Enter Firstname]]>
+    </line>
+    <line>
+      <![CDATA[Enter Address]]>
+    </line>
+    <line>
+      <![CDATA[Enter Credit card Details]]>
+    </line>
+    <line>
+      <![CDATA[select CardType]]>
+    </line>
+    <line>
+      <![CDATA[select Expiry Month]]>
+    </line>
+    <line>
+      <![CDATA[select Expiry Year]]>
+    </line>
+    <line>
+      <![CDATA[Enter CCV Number]]>
+    </line>
+    <line>
+      <![CDATA[click on Book Now]]>
+    </line>
+    <line>
+      <![CDATA[Get the Order No.]]>
+    </line>
+    <line>
+      <![CDATA[click on Itinerary]]>
+    </line>
+    <line>
+      <![CDATA[Enter Search ID]]>
+    </line>
+    <line>
+      <![CDATA[click on Go]]>
+    </line>
+    <line>
+      <![CDATA[Fetch Search Id Details]]>
+    </line>
+    <line>
+      <![CDATA[Click logOut]]>
+    </line>
+    <line>
+      <![CDATA[logout message You have successfully logged out. Click here to login again]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Successfully Logged out withthis message :- : ACTUAL : You have successfully logged out. Click here to login again    EXPECTED :You have successfully logged out. Click here to login again]]>
+    </line>
+    <line>
+      <![CDATA[Click logIn Again]]>
+    </line>
+    <line>
+      <![CDATA[Verify Title]]>
+    </line>
+    <line>
+      <![CDATA[PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password]]>
+    </line>
+    <line>
+      <![CDATA[click on Login]]>
+    </line>
+    <line>
+      <![CDATA[select location]]>
+    </line>
+    <line>
+      <![CDATA[select Hotels]]>
+    </line>
+    <line>
+      <![CDATA[select RoomType]]>
+    </line>
+    <line>
+      <![CDATA[select Number Of Rooms]]>
+    </line>
+    <line>
+      <![CDATA[Enter Check in and Check out date]]>
+    </line>
+    <line>
+      <![CDATA[Select the number of Adults per Room]]>
+    </line>
+    <line>
+      <![CDATA[Select the number of Children per Room]]>
+    </line>
+    <line>
+      <![CDATA[click on Search]]>
+    </line>
+    <line>
+      <![CDATA[Randomly select any of the hotel]]>
+    </line>
+    <line>
+      <![CDATA[click on Continue]]>
+    </line>
+    <line>
+      <![CDATA[Enter Firstname]]>
+    </line>
+    <line>
+      <![CDATA[Enter Firstname]]>
+    </line>
+    <line>
+      <![CDATA[Enter Address]]>
+    </line>
+    <line>
+      <![CDATA[Enter Credit card Details]]>
+    </line>
+    <line>
+      <![CDATA[select CardType]]>
+    </line>
+    <line>
+      <![CDATA[select Expiry Month]]>
+    </line>
+    <line>
+      <![CDATA[select Expiry Year]]>
+    </line>
+    <line>
+      <![CDATA[Enter CCV Number]]>
+    </line>
+    <line>
+      <![CDATA[click on Book Now]]>
+    </line>
+    <line>
+      <![CDATA[Get the Order No.]]>
+    </line>
+    <line>
+      <![CDATA[click on Itinerary]]>
+    </line>
+    <line>
+      <![CDATA[Enter Search ID]]>
+    </line>
+    <line>
+      <![CDATA[click on Go]]>
+    </line>
+    <line>
+      <![CDATA[Fetch Search Id Details]]>
+    </line>
+    <line>
+      <![CDATA[Click logOut]]>
+    </line>
+    <line>
+      <![CDATA[logout message You have successfully logged out. Click here to login again]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Successfully Logged out withthis message :- : ACTUAL : You have successfully logged out. Click here to login again    EXPECTED :You have successfully logged out. Click here to login again]]>
+    </line>
+    <line>
+      <![CDATA[Click logIn Again]]>
+    </line>
+    <line>
+      <![CDATA[Verify Title]]>
+    </line>
+    <line>
+      <![CDATA[PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password]]>
+    </line>
+    <line>
+      <![CDATA[click on Login]]>
+    </line>
+    <line>
+      <![CDATA[select location]]>
+    </line>
+    <line>
+      <![CDATA[select Hotels]]>
+    </line>
+    <line>
+      <![CDATA[select RoomType]]>
+    </line>
+    <line>
+      <![CDATA[select Number Of Rooms]]>
+    </line>
+    <line>
+      <![CDATA[Enter Check in and Check out date]]>
+    </line>
+    <line>
+      <![CDATA[Select the number of Adults per Room]]>
+    </line>
+    <line>
+      <![CDATA[Select the number of Children per Room]]>
+    </line>
+    <line>
+      <![CDATA[click on Search]]>
+    </line>
+    <line>
+      <![CDATA[Randomly select any of the hotel]]>
+    </line>
+    <line>
+      <![CDATA[click on Continue]]>
+    </line>
+    <line>
+      <![CDATA[Enter Firstname]]>
+    </line>
+    <line>
+      <![CDATA[Enter Firstname]]>
+    </line>
+    <line>
+      <![CDATA[Enter Address]]>
+    </line>
+    <line>
+      <![CDATA[Enter Credit card Details]]>
+    </line>
+    <line>
+      <![CDATA[select CardType]]>
+    </line>
+    <line>
+      <![CDATA[select Expiry Month]]>
+    </line>
+    <line>
+      <![CDATA[select Expiry Year]]>
+    </line>
+    <line>
+      <![CDATA[Enter CCV Number]]>
+    </line>
+    <line>
+      <![CDATA[click on Book Now]]>
+    </line>
+    <line>
+      <![CDATA[Get the Order No.]]>
+    </line>
+    <line>
+      <![CDATA[click on Itinerary]]>
+    </line>
+    <line>
+      <![CDATA[Enter Search ID]]>
+    </line>
+    <line>
+      <![CDATA[click on Go]]>
+    </line>
+    <line>
+      <![CDATA[Fetch Search Id Details]]>
+    </line>
+    <line>
+      <![CDATA[Click logOut]]>
+    </line>
+    <line>
+      <![CDATA[logout message You have successfully logged out. Click here to login again]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Successfully Logged out withthis message :- : ACTUAL : You have successfully logged out. Click here to login again    EXPECTED :You have successfully logged out. Click here to login again]]>
+    </line>
+    <line>
+      <![CDATA[Click logIn Again]]>
+    </line>
+    <line>
+      <![CDATA[Verify Title]]>
+    </line>
+    <line>
+      <![CDATA[PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password]]>
+    </line>
+    <line>
+      <![CDATA[click on Login]]>
+    </line>
+    <line>
+      <![CDATA[select location]]>
+    </line>
+    <line>
+      <![CDATA[select Hotels]]>
+    </line>
+    <line>
+      <![CDATA[select RoomType]]>
+    </line>
+    <line>
+      <![CDATA[select Number Of Rooms]]>
+    </line>
+    <line>
+      <![CDATA[Enter Check in and Check out date]]>
+    </line>
+    <line>
+      <![CDATA[Select the number of Adults per Room]]>
+    </line>
+    <line>
+      <![CDATA[Select the number of Children per Room]]>
+    </line>
+    <line>
+      <![CDATA[click on Search]]>
+    </line>
+    <line>
+      <![CDATA[Randomly select any of the hotel]]>
+    </line>
+    <line>
+      <![CDATA[click on Continue]]>
+    </line>
+    <line>
+      <![CDATA[Enter Firstname]]>
+    </line>
+    <line>
+      <![CDATA[Enter Firstname]]>
+    </line>
+    <line>
+      <![CDATA[Enter Address]]>
+    </line>
+    <line>
+      <![CDATA[Enter Credit card Details]]>
+    </line>
+    <line>
+      <![CDATA[select CardType]]>
+    </line>
+    <line>
+      <![CDATA[select Expiry Month]]>
+    </line>
+    <line>
+      <![CDATA[select Expiry Year]]>
+    </line>
+    <line>
+      <![CDATA[Enter CCV Number]]>
+    </line>
+    <line>
+      <![CDATA[click on Book Now]]>
+    </line>
+    <line>
+      <![CDATA[Get the Order No.]]>
+    </line>
+    <line>
+      <![CDATA[click on Itinerary]]>
+    </line>
+    <line>
+      <![CDATA[Enter Search ID]]>
+    </line>
+    <line>
+      <![CDATA[click on Go]]>
+    </line>
+    <line>
+      <![CDATA[Fetch Search Id Details]]>
+    </line>
+    <line>
+      <![CDATA[Click logOut]]>
+    </line>
+    <line>
+      <![CDATA[logout message You have successfully logged out. Click here to login again]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Successfully Logged out withthis message :- : ACTUAL : You have successfully logged out. Click here to login again    EXPECTED :You have successfully logged out. Click here to login again]]>
+    </line>
+    <line>
+      <![CDATA[Click logIn Again]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-10-09T07:07:06Z" name="Falcon-Sample-WIN_7_chrome_53" finished-at="2023-10-09T07:09:15Z" duration-ms="128967">
+    <groups>
+    </groups>
+    <test started-at="2023-10-09T07:07:06Z" name="SampleTest" finished-at="2023-10-09T07:09:15Z" duration-ms="128967">
+      <class name="org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript">
+        <test-method is-config="true" signature="preSetup()[pri:0, instance:org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@4ceca0d6]" started-at="2023-10-09T07:07:06Z" name="preSetup" finished-at="2023-10-09T07:07:06Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method signature="launchApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@4ceca0d6]" started-at="2023-10-09T07:07:06Z" name="launchApp" finished-at="2023-10-09T07:07:16Z" duration-ms="10534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[53]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser: chrome]]>
+            </line>
+            <line>
+              <![CDATA[Maximizing browser window]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="performActions(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@4ceca0d6]" started-at="2023-10-09T07:07:17Z" name="performActions" data-provider="getData" finished-at="2023-10-09T07:07:47Z" depends-on-methods="org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.launchApp" duration-ms="29942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Creek]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5 - Five]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[09/10/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[09/10/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1 - One]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1234123412341234]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[234.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify Title]]>
+            </line>
+            <line>
+              <![CDATA[PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password]]>
+            </line>
+            <line>
+              <![CDATA[click on Login]]>
+            </line>
+            <line>
+              <![CDATA[select location]]>
+            </line>
+            <line>
+              <![CDATA[select Hotels]]>
+            </line>
+            <line>
+              <![CDATA[select RoomType]]>
+            </line>
+            <line>
+              <![CDATA[select Number Of Rooms]]>
+            </line>
+            <line>
+              <![CDATA[Enter Check in and Check out date]]>
+            </line>
+            <line>
+              <![CDATA[Select the number of Adults per Room]]>
+            </line>
+            <line>
+              <![CDATA[Select the number of Children per Room]]>
+            </line>
+            <line>
+              <![CDATA[click on Search]]>
+            </line>
+            <line>
+              <![CDATA[Randomly select any of the hotel]]>
+            </line>
+            <line>
+              <![CDATA[click on Continue]]>
+            </line>
+            <line>
+              <![CDATA[Enter Firstname]]>
+            </line>
+            <line>
+              <![CDATA[Enter Firstname]]>
+            </line>
+            <line>
+              <![CDATA[Enter Address]]>
+            </line>
+            <line>
+              <![CDATA[Enter Credit card Details]]>
+            </line>
+            <line>
+              <![CDATA[select CardType]]>
+            </line>
+            <line>
+              <![CDATA[select Expiry Month]]>
+            </line>
+            <line>
+              <![CDATA[select Expiry Year]]>
+            </line>
+            <line>
+              <![CDATA[Enter CCV Number]]>
+            </line>
+            <line>
+              <![CDATA[click on Book Now]]>
+            </line>
+            <line>
+              <![CDATA[Get the Order No.]]>
+            </line>
+            <line>
+              <![CDATA[click on Itinerary]]>
+            </line>
+            <line>
+              <![CDATA[Enter Search ID]]>
+            </line>
+            <line>
+              <![CDATA[click on Go]]>
+            </line>
+            <line>
+              <![CDATA[Fetch Search Id Details]]>
+            </line>
+            <line>
+              <![CDATA[Click logOut]]>
+            </line>
+            <line>
+              <![CDATA[logout message You have successfully logged out. Click here to login again]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Successfully Logged out withthis message :- : ACTUAL : You have successfully logged out. Click here to login again    EXPECTED :You have successfully logged out. Click here to login again]]>
+            </line>
+            <line>
+              <![CDATA[Click logIn Again]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- performActions -->
+        <test-method signature="performActions(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@4ceca0d6]" started-at="2023-10-09T07:07:47Z" name="performActions" data-provider="getData" finished-at="2023-10-09T07:08:17Z" depends-on-methods="org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.launchApp" duration-ms="29885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Sunshine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Double]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6 - Six]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[09/10/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[09/10/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Emily]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Johnson]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2345234523452345]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[August]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2024]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[123.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify Title]]>
+            </line>
+            <line>
+              <![CDATA[PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password]]>
+            </line>
+            <line>
+              <![CDATA[click on Login]]>
+            </line>
+            <line>
+              <![CDATA[select location]]>
+            </line>
+            <line>
+              <![CDATA[select Hotels]]>
+            </line>
+            <line>
+              <![CDATA[select RoomType]]>
+            </line>
+            <line>
+              <![CDATA[select Number Of Rooms]]>
+            </line>
+            <line>
+              <![CDATA[Enter Check in and Check out date]]>
+            </line>
+            <line>
+              <![CDATA[Select the number of Adults per Room]]>
+            </line>
+            <line>
+              <![CDATA[Select the number of Children per Room]]>
+            </line>
+            <line>
+              <![CDATA[click on Search]]>
+            </line>
+            <line>
+              <![CDATA[Randomly select any of the hotel]]>
+            </line>
+            <line>
+              <![CDATA[click on Continue]]>
+            </line>
+            <line>
+              <![CDATA[Enter Firstname]]>
+            </line>
+            <line>
+              <![CDATA[Enter Firstname]]>
+            </line>
+            <line>
+              <![CDATA[Enter Address]]>
+            </line>
+            <line>
+              <![CDATA[Enter Credit card Details]]>
+            </line>
+            <line>
+              <![CDATA[select CardType]]>
+            </line>
+            <line>
+              <![CDATA[select Expiry Month]]>
+            </line>
+            <line>
+              <![CDATA[select Expiry Year]]>
+            </line>
+            <line>
+              <![CDATA[Enter CCV Number]]>
+            </line>
+            <line>
+              <![CDATA[click on Book Now]]>
+            </line>
+            <line>
+              <![CDATA[Get the Order No.]]>
+            </line>
+            <line>
+              <![CDATA[click on Itinerary]]>
+            </line>
+            <line>
+              <![CDATA[Enter Search ID]]>
+            </line>
+            <line>
+              <![CDATA[click on Go]]>
+            </line>
+            <line>
+              <![CDATA[Fetch Search Id Details]]>
+            </line>
+            <line>
+              <![CDATA[Click logOut]]>
+            </line>
+            <line>
+              <![CDATA[logout message You have successfully logged out. Click here to login again]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Successfully Logged out withthis message :- : ACTUAL : You have successfully logged out. Click here to login again    EXPECTED :You have successfully logged out. Click here to login again]]>
+            </line>
+            <line>
+              <![CDATA[Click logIn Again]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- performActions -->
+        <test-method signature="performActions(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@4ceca0d6]" started-at="2023-10-09T07:08:17Z" name="performActions" data-provider="getData" finished-at="2023-10-09T07:08:46Z" depends-on-methods="org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.launchApp" duration-ms="29526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Hervey]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7 - Seven]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[09/10/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[09/10/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[3 - Three]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Michael]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Brown]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[United Kingdom]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[3456345634563456]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Master Card]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2025]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify Title]]>
+            </line>
+            <line>
+              <![CDATA[PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password]]>
+            </line>
+            <line>
+              <![CDATA[click on Login]]>
+            </line>
+            <line>
+              <![CDATA[select location]]>
+            </line>
+            <line>
+              <![CDATA[select Hotels]]>
+            </line>
+            <line>
+              <![CDATA[select RoomType]]>
+            </line>
+            <line>
+              <![CDATA[select Number Of Rooms]]>
+            </line>
+            <line>
+              <![CDATA[Enter Check in and Check out date]]>
+            </line>
+            <line>
+              <![CDATA[Select the number of Adults per Room]]>
+            </line>
+            <line>
+              <![CDATA[Select the number of Children per Room]]>
+            </line>
+            <line>
+              <![CDATA[click on Search]]>
+            </line>
+            <line>
+              <![CDATA[Randomly select any of the hotel]]>
+            </line>
+            <line>
+              <![CDATA[click on Continue]]>
+            </line>
+            <line>
+              <![CDATA[Enter Firstname]]>
+            </line>
+            <line>
+              <![CDATA[Enter Firstname]]>
+            </line>
+            <line>
+              <![CDATA[Enter Address]]>
+            </line>
+            <line>
+              <![CDATA[Enter Credit card Details]]>
+            </line>
+            <line>
+              <![CDATA[select CardType]]>
+            </line>
+            <line>
+              <![CDATA[select Expiry Month]]>
+            </line>
+            <line>
+              <![CDATA[select Expiry Year]]>
+            </line>
+            <line>
+              <![CDATA[Enter CCV Number]]>
+            </line>
+            <line>
+              <![CDATA[click on Book Now]]>
+            </line>
+            <line>
+              <![CDATA[Get the Order No.]]>
+            </line>
+            <line>
+              <![CDATA[click on Itinerary]]>
+            </line>
+            <line>
+              <![CDATA[Enter Search ID]]>
+            </line>
+            <line>
+              <![CDATA[click on Go]]>
+            </line>
+            <line>
+              <![CDATA[Fetch Search Id Details]]>
+            </line>
+            <line>
+              <![CDATA[Click logOut]]>
+            </line>
+            <line>
+              <![CDATA[logout message You have successfully logged out. Click here to login again]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Successfully Logged out withthis message :- : ACTUAL : You have successfully logged out. Click here to login again    EXPECTED :You have successfully logged out. Click here to login again]]>
+            </line>
+            <line>
+              <![CDATA[Click logIn Again]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- performActions -->
+        <test-method signature="performActions(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@4ceca0d6]" started-at="2023-10-09T07:08:46Z" name="performActions" data-provider="getData" finished-at="2023-10-09T07:09:15Z" depends-on-methods="org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.launchApp" duration-ms="28540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Los Angeles]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Cornice]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8 - Eight]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[09/10/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[09/10/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[4 - Four]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Sarah]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Davis]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Australia]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[4567456745674567]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[November]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2026]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[789.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Verify Title]]>
+            </line>
+            <line>
+              <![CDATA[PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!]]>
+            </line>
+            <line>
+              <![CDATA[Enter Username]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password]]>
+            </line>
+            <line>
+              <![CDATA[click on Login]]>
+            </line>
+            <line>
+              <![CDATA[select location]]>
+            </line>
+            <line>
+              <![CDATA[select Hotels]]>
+            </line>
+            <line>
+              <![CDATA[select RoomType]]>
+            </line>
+            <line>
+              <![CDATA[select Number Of Rooms]]>
+            </line>
+            <line>
+              <![CDATA[Enter Check in and Check out date]]>
+            </line>
+            <line>
+              <![CDATA[Select the number of Adults per Room]]>
+            </line>
+            <line>
+              <![CDATA[Select the number of Children per Room]]>
+            </line>
+            <line>
+              <![CDATA[click on Search]]>
+            </line>
+            <line>
+              <![CDATA[Randomly select any of the hotel]]>
+            </line>
+            <line>
+              <![CDATA[click on Continue]]>
+            </line>
+            <line>
+              <![CDATA[Enter Firstname]]>
+            </line>
+            <line>
+              <![CDATA[Enter Firstname]]>
+            </line>
+            <line>
+              <![CDATA[Enter Address]]>
+            </line>
+            <line>
+              <![CDATA[Enter Credit card Details]]>
+            </line>
+            <line>
+              <![CDATA[select CardType]]>
+            </line>
+            <line>
+              <![CDATA[select Expiry Month]]>
+            </line>
+            <line>
+              <![CDATA[select Expiry Year]]>
+            </line>
+            <line>
+              <![CDATA[Enter CCV Number]]>
+            </line>
+            <line>
+              <![CDATA[click on Book Now]]>
+            </line>
+            <line>
+              <![CDATA[Get the Order No.]]>
+            </line>
+            <line>
+              <![CDATA[click on Itinerary]]>
+            </line>
+            <line>
+              <![CDATA[Enter Search ID]]>
+            </line>
+            <line>
+              <![CDATA[click on Go]]>
+            </line>
+            <line>
+              <![CDATA[Fetch Search Id Details]]>
+            </line>
+            <line>
+              <![CDATA[Click logOut]]>
+            </line>
+            <line>
+              <![CDATA[logout message You have successfully logged out. Click here to login again]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Successfully Logged out withthis message :- : ACTUAL : You have successfully logged out. Click here to login again    EXPECTED :You have successfully logged out. Click here to login again]]>
+            </line>
+            <line>
+              <![CDATA[Click logIn Again]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- performActions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@4ceca0d6]" started-at="2023-10-09T07:09:15Z" name="teardown" finished-at="2023-10-09T07:09:15Z" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript -->
+    </test> <!-- SampleTest -->
+  </suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+</testng-results>

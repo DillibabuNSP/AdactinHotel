@@ -1,0 +1,12 @@
+order_id_969277: RLS6L4STGD
+hotel_name_969277: Hotel Cornice
+location_969277: Los Angeles
+rooms_969277: 8 Rooms
+first_name_969277: Sarah
+last_name_969277: Davis
+arr_date_969277: 09/10/2023
+dep_date_969277: 09/10/2023
+no_days_969277: 0 Days
+room_type_969277: Super Deluxe
+price_night_969277: AUD $ 400
+total_price_969277: AUD $ 11
