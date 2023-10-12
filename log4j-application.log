@@ -6523,3 +6523,35 @@ Session ID: 584b50c0db0d1df33bd53fc7c88f2c2c
 2023-10-09 12:39:14 INFO  VerificationManager:259 - PASS : Successfully Logged out withthis message :- : ACTUAL : You have successfully logged out. Click here to login again    EXPECTED :You have successfully logged out. Click here to login again
 2023-10-09 12:39:14 INFO  BookedItinerary:49 - Click logIn Again
 2023-10-09 12:39:15 ERROR TestNGRunner:71 - Results are not uploaded because uploadResults flag is set to false
+2023-10-10 14:55:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment variable Falcon is: Falcon
+2023-10-10 14:55:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: The value found with Environment Module variable sample is: sample
+2023-10-10 14:55:53 INFO  TestNGEngineForDesiredSuites:49 - The value found with Environment variable WIN_7_chrome_53 is: WIN_7_chrome_53
+2023-10-10 14:55:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: Clients Found: [Falcon]
+
+2023-10-10 14:55:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: Modules Selected: [sample]
+
+2023-10-10 14:55:53 INFO  TestNGEngineForDesiredSuites:49 - INFO: New Suite Created with name: Falcon-Sample-WIN_7_chrome_53
+2023-10-10 14:55:53 INFO  TestNGEngineForDesiredSuites:49 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-WIN_7_chrome_53" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="WIN"/>
+  <parameter name="osVersion" value="7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="53"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-WIN_7_chrome_53 -->
+
+2023-10-10 14:55:54 INFO  BasePage:49 - Opening browser: chrome
+2023-10-10 14:55:59 INFO  BasePage:49 - Maximizing browser window
+2023-10-10 14:56:00 INFO  HomePage:49 - Verify Title
+2023-10-10 14:56:00 INFO  VerificationManager:259 - PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!
+2023-10-10 14:56:00 INFO  HomePage:49 - Enter Username
+2023-10-10 14:56:00 INFO  HomePage:49 - Enter Password
+2023-10-10 14:56:00 INFO  HomePage:49 - click on Login
+2023-10-10 14:56:01 INFO  WelcomePage:49 - select location
+2023-10-10 14:56:02 INFO  WelcomePage:49 - select Hotels
+2023-10-10 14:56:02 INFO  WelcomePage:49 - select RoomType

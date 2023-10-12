@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>SampleTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Oct 09 12:37:06 GMT+05:30 2023</td>
+<td>Started on:</td><td>Tue Oct 10 14:55:54 GMT+05:30 2023</td>
 </tr>
-<tr><td>Total time:</td><td>128 seconds (128967 ms)</td>
+<tr><td>Total time:</td><td>8 seconds (8262 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,129 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.performActions()'><b>performActions</b><br>Test class: org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript<br>Parameters: Sydney, Hotel Creek, Standard, 5 - Five, 09/10/2023, 09/10/2023, 1 - One, 1 - One, John, Smith, United States, 1234123412341234, American Express, January, 2023, 234.0<br/>
+<a href="#Output-1658911125" onClick='toggleBox("Output-1658911125", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1658911125" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1658911125">
+Verify Title<br/>
+PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!<br/>
+Enter Username<br/>
+Enter Password<br/>
+click on Login<br/>
+select location<br/>
+select Hotels<br/>
+select RoomType<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Standard
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ATMECSBLRLT-082&apos;, ip: &apos;50.50.20.176&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at org.atmecs.web_automation_adactin.reusableFiles.ReusableFiles.selectDropDownByVisibleText(ReusableFiles.java:66)
+	at org.atmecs.web_automation_adactin.pages.WelcomePage.selectRoomType(WelcomePage.java:66)
+	at org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.performActions(AdactinHotelTestScript.java:93)
+	at org.atmecs.web_automation_adactin.runner.TestNGRunner.main(TestNGRunner.java:59)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1658911125", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1658911125'><pre>org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Standard
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;ATMECSBLRLT-082&apos;, ip: &apos;50.50.20.176&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at org.atmecs.web_automation_adactin.reusableFiles.ReusableFiles.selectDropDownByVisibleText(ReusableFiles.java:66)
+	at org.atmecs.web_automation_adactin.pages.WelcomePage.selectRoomType(WelcomePage.java:66)
+	at org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.performActions(AdactinHotelTestScript.java:93)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.atmecs.web_automation_adactin.runner.TestNGRunner.main(TestNGRunner.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>2</td>
+<td>org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@58efaf11</td></tr>
+<tr>
+<td title='org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.performActions()'><b>performActions</b><br>Test class: org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript</td>
+<td><div><pre>java.util.MissingResourceException: Can&apos;t find resource for bundle java.util.PropertyResourceBundle, key capture.screenshot
+	at java.base/java.util.ResourceBundle.getObject(ResourceBundle.java:564)
+	at java.base/java.util.ResourceBundle.getString(ResourceBundle.java:521)
+	at com.atmecs.falcon.automation.util.parser.PropertyParser.readEnvOrConfigProperty(PropertyParser.java:34)
+	at com.atmecs.falcon.automation.ui.selenium.CustomListener.onTestFailure(CustomListener.java:221)
+	at org.atmecs.web_automation_adactin.runner.TestNGRunner.main(TestNGRunner.java:59)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace208463611", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace208463611'><pre>java.util.MissingResourceException: Can&apos;t find resource for bundle java.util.PropertyResourceBundle, key capture.screenshot
+	at java.base/java.util.ResourceBundle.getObject(ResourceBundle.java:564)
+	at java.base/java.util.ResourceBundle.getString(ResourceBundle.java:521)
+	at com.atmecs.falcon.automation.util.parser.PropertyParser.readEnvOrConfigProperty(PropertyParser.java:34)
+	at com.atmecs.falcon.automation.ui.selenium.CustomListener.onTestFailure(CustomListener.java:221)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:636)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.atmecs.web_automation_adactin.runner.TestNGRunner.main(TestNGRunner.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:294)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>2</td>
+<td>org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@58efaf11</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,193 +199,17 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.launchApp()'><b>launchApp</b><br>Test class: org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript<br>Parameters: WIN, 7, chrome, 53<br/>
-<a href="#Output-2120380138" onClick='toggleBox("Output-2120380138", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-230573788" onClick='toggleBox("Output-230573788", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2120380138" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2120380138">
+<a href="#Output-230573788" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-230573788">
 Opening browser: chrome<br/>
 Maximizing browser window<br/>
 </div>
 </td>
 <td></td>
-<td>10</td>
-<td>org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@4ceca0d6</td></tr>
-<tr>
-<td title='org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.performActions()'><b>performActions</b><br>Test class: org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript<br>Parameters: Sydney, Hotel Creek, Standard, 5 - Five, 09/10/2023, 09/10/2023, 1 - One, 1 - One, John, Smith, United States, 1234123412341234, American Express, January, 2023, 234.0<br/>
-<a href="#Output-1220091209" onClick='toggleBox("Output-1220091209", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1220091209" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1220091209">
-Verify Title<br/>
-PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!<br/>
-Enter Username<br/>
-Enter Password<br/>
-click on Login<br/>
-select location<br/>
-select Hotels<br/>
-select RoomType<br/>
-select Number Of Rooms<br/>
-Enter Check in and Check out date<br/>
-Select the number of Adults per Room<br/>
-Select the number of Children per Room<br/>
-click on Search<br/>
-Randomly select any of the hotel<br/>
-click on Continue<br/>
-Enter Firstname<br/>
-Enter Firstname<br/>
-Enter Address<br/>
-Enter Credit card Details<br/>
-select CardType<br/>
-select Expiry Month<br/>
-select Expiry Year<br/>
-Enter CCV Number<br/>
-click on Book Now<br/>
-Get the Order No.<br/>
-click on Itinerary<br/>
-Enter Search ID<br/>
-click on Go<br/>
-Fetch Search Id Details<br/>
-Click logOut<br/>
-logout message You have successfully logged out. Click here to login again<br/>
-PASS : Successfully Logged out withthis message :- : ACTUAL : You have successfully logged out. Click here to login again    EXPECTED :You have successfully logged out. Click here to login again<br/>
-Click logIn Again<br/>
-</div>
-</td>
-<td></td>
-<td>29</td>
-<td>org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@4ceca0d6</td></tr>
-<tr>
-<td title='org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.performActions()'><b>performActions</b><br>Test class: org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript<br>Parameters: London, Hotel Sunshine, Double, 6 - Six, 09/10/2023, 09/10/2023, 2 - Two, 2 - Two, Emily, Johnson, Canada, 2345234523452345, VISA, August, 2024, 123.0<br/>
-<a href="#Output-1628390612" onClick='toggleBox("Output-1628390612", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1628390612" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1628390612">
-Verify Title<br/>
-PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!<br/>
-Enter Username<br/>
-Enter Password<br/>
-click on Login<br/>
-select location<br/>
-select Hotels<br/>
-select RoomType<br/>
-select Number Of Rooms<br/>
-Enter Check in and Check out date<br/>
-Select the number of Adults per Room<br/>
-Select the number of Children per Room<br/>
-click on Search<br/>
-Randomly select any of the hotel<br/>
-click on Continue<br/>
-Enter Firstname<br/>
-Enter Firstname<br/>
-Enter Address<br/>
-Enter Credit card Details<br/>
-select CardType<br/>
-select Expiry Month<br/>
-select Expiry Year<br/>
-Enter CCV Number<br/>
-click on Book Now<br/>
-Get the Order No.<br/>
-click on Itinerary<br/>
-Enter Search ID<br/>
-click on Go<br/>
-Fetch Search Id Details<br/>
-Click logOut<br/>
-logout message You have successfully logged out. Click here to login again<br/>
-PASS : Successfully Logged out withthis message :- : ACTUAL : You have successfully logged out. Click here to login again    EXPECTED :You have successfully logged out. Click here to login again<br/>
-Click logIn Again<br/>
-</div>
-</td>
-<td></td>
-<td>29</td>
-<td>org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@4ceca0d6</td></tr>
-<tr>
-<td title='org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.performActions()'><b>performActions</b><br>Test class: org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript<br>Parameters: New York, Hotel Hervey, Deluxe, 7 - Seven, 09/10/2023, 09/10/2023, 3 - Three, 3 - Three, Michael, Brown, United Kingdom, 3456345634563456, Master Card, May, 2025, 456.0<br/>
-<a href="#Output-1677636525" onClick='toggleBox("Output-1677636525", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1677636525" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1677636525">
-Verify Title<br/>
-PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!<br/>
-Enter Username<br/>
-Enter Password<br/>
-click on Login<br/>
-select location<br/>
-select Hotels<br/>
-select RoomType<br/>
-select Number Of Rooms<br/>
-Enter Check in and Check out date<br/>
-Select the number of Adults per Room<br/>
-Select the number of Children per Room<br/>
-click on Search<br/>
-Randomly select any of the hotel<br/>
-click on Continue<br/>
-Enter Firstname<br/>
-Enter Firstname<br/>
-Enter Address<br/>
-Enter Credit card Details<br/>
-select CardType<br/>
-select Expiry Month<br/>
-select Expiry Year<br/>
-Enter CCV Number<br/>
-click on Book Now<br/>
-Get the Order No.<br/>
-click on Itinerary<br/>
-Enter Search ID<br/>
-click on Go<br/>
-Fetch Search Id Details<br/>
-Click logOut<br/>
-logout message You have successfully logged out. Click here to login again<br/>
-PASS : Successfully Logged out withthis message :- : ACTUAL : You have successfully logged out. Click here to login again    EXPECTED :You have successfully logged out. Click here to login again<br/>
-Click logIn Again<br/>
-</div>
-</td>
-<td></td>
-<td>29</td>
-<td>org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@4ceca0d6</td></tr>
-<tr>
-<td title='org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript.performActions()'><b>performActions</b><br>Test class: org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript<br>Parameters: Los Angeles, Hotel Cornice, Super Deluxe, 8 - Eight, 09/10/2023, 09/10/2023, 4 - Four, 4 - Four, Sarah, Davis, Australia, 4567456745674567, Other, November, 2026, 789.0<br/>
-<a href="#Output-1188051602" onClick='toggleBox("Output-1188051602", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1188051602" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1188051602">
-Verify Title<br/>
-PASS : The HomePage Title :-: ACTUAL : Adactin Launches The Adactin Hotel App!    EXPECTED :Adactin Launches The Adactin Hotel App!<br/>
-Enter Username<br/>
-Enter Password<br/>
-click on Login<br/>
-select location<br/>
-select Hotels<br/>
-select RoomType<br/>
-select Number Of Rooms<br/>
-Enter Check in and Check out date<br/>
-Select the number of Adults per Room<br/>
-Select the number of Children per Room<br/>
-click on Search<br/>
-Randomly select any of the hotel<br/>
-click on Continue<br/>
-Enter Firstname<br/>
-Enter Firstname<br/>
-Enter Address<br/>
-Enter Credit card Details<br/>
-select CardType<br/>
-select Expiry Month<br/>
-select Expiry Year<br/>
-Enter CCV Number<br/>
-click on Book Now<br/>
-Get the Order No.<br/>
-click on Itinerary<br/>
-Enter Search ID<br/>
-click on Go<br/>
-Fetch Search Id Details<br/>
-Click logOut<br/>
-logout message You have successfully logged out. Click here to login again<br/>
-PASS : Successfully Logged out withthis message :- : ACTUAL : You have successfully logged out. Click here to login again    EXPECTED :You have successfully logged out. Click here to login again<br/>
-Click logIn Again<br/>
-</div>
-</td>
-<td></td>
-<td>28</td>
-<td>org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@4ceca0d6</td></tr>
+<td>5</td>
+<td>org.atmecs.web_automation_adactin.testscript.AdactinHotelTestScript@58efaf11</td></tr>
 </table><p>
 </body>
 </html>
